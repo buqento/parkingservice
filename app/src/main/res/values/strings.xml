@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Layanan Parkir</string>
+    <string name="app_title">Parkiran Mobil</string>
+    <string name="app_version">Versi 1.0</string>
+    <string name="app_about">Tentang Aplikasi</string>
+    <string name="app_info_parking">Informasi Parkir</string>
+    <string name="app_copyright">Hak Cipta &#169; 2016 richohendra</string>
+    <string name="action_settings">Settings</string>
+    <string name="textInfo">Layanan Parkir
+        :\n\n\u25BA Phone: +62 813 4444 5555\n\u25BA www.parkingservice.com
+    </string>
+</resources>
