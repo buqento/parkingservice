@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\buqento\\AndroidStudioProjects\\ParkingService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_car_parking.png",
+        "source": "C:\\Users\\buqento\\AndroidStudioProjects\\ParkingService\\app\\src\\main\\res\\mipmap-hdpi\\ic_car_parking.png"
+    },
+    {
+        "merged": "C:\\Users\\buqento\\AndroidStudioProjects\\ParkingService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\buqento\\AndroidStudioProjects\\ParkingService\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/BgColor"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_car"
+            android:layout_marginBottom="0dp"/>
+
+        <TextView
+            android:id="@+id/textHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/app_title"
+            android:layout_below="@+id/logo"/>
+
+        <TextView
+            android:id="@+id/textHeader2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_version"
+            android:layout_marginBottom="50dp"
+            android:layout_below="@+id/textHeader"/>
+
+        <ImageButton
+            android:id="@+id/imageMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="showMenu"
+            android:src="@mipmap/ic_launcher"
+            android:background="@android:color/transparent"
+            android:layout_below="@+id/logo"/>
+
+        <TextView
+            android:id="@+id/textMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_info_parking"
+            android:layout_marginBottom="15dp"
+            android:layout_below="@+id/imageMain"/>
+
+
+        <ImageButton
+            android:id="@+id/imageInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="showInfo"
+            android:src="@drawable/ic_info"
+            android:background="@android:color/transparent"
+            android:layout_below="@+id/textMain"/>
+
+        <TextView
+            android:id="@+id/textInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_about"
+            android:layout_marginBottom="50dp"
+            android:layout_below="@+id/imageInfo"/>
+
+
+        <TextView
+            android:id="@+id/textCopy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_copyright"
+            android:layout_below="@+id/imageInfo"/>
+
+    </LinearLayout>
+
+</LinearLayout>
